@@ -1,2 +1,2 @@
 # .Net-Applications
-My applications developed under the .net platform.
+Applications developed under the .net platform.
