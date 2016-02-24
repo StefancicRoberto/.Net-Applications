@@ -1,0 +1,20 @@
+﻿<Window x:Name="DefragmenterWindow" x:Class="ControlCenter.Applications.Defragmenter.Defragmenter"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        Title="Defragmenter" Height="300" Width="600" ResizeMode="NoResize" Icon="/ControlCenter;component/Resources/btnDefragmenter.png" WindowStartupLocation="CenterScreen" Closing="DefragmenterWindow_Closing">
+    <Grid>
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition Width="100*"/>
+            <ColumnDefinition Width="71*"/>
+            <ColumnDefinition Width="423*"/>
+        </Grid.ColumnDefinitions>
+        <Label Content="Choose the disk: " HorizontalAlignment="Left" Margin="21.333,22.05,0,0" VerticalAlignment="Top" Width="100.667" FontStyle="Italic" FontWeight="Bold" Grid.ColumnSpan="2"/>
+        <ListBox x:Name="lbDrives" HorizontalAlignment="Left" Height="18" Margin="21.333,50.05,0,0" VerticalAlignment="Top" Width="100" FontWeight="Bold" BorderBrush="#FF28A9C5" BorderThickness="2" Grid.ColumnSpan="2"/>
+        <Button x:Name="btnStart" Content="Start" HorizontalAlignment="Left" Margin="143.032,22.05,0,0" VerticalAlignment="Top" Width="75" Background="White" FontWeight="Bold" BorderBrush="Black" BorderThickness="2" Click="btnStart_Click" Grid.Column="2"/>
+        <Button x:Name="btnAbort" Content="Abort" HorizontalAlignment="Left" Margin="285.604,22.05,0,0" VerticalAlignment="Top" Width="75" Background="White" BorderBrush="Black" Foreground="Black" FontWeight="Bold" BorderThickness="2" Click="btnAbort_Click" Grid.Column="2"/>
+        <ListBox x:Name="lbOutput" HorizontalAlignment="Left" Height="166.667" Margin="43.179,50.05,0,0" VerticalAlignment="Top" Width="425" BorderBrush="#FF28A9C5" BorderThickness="2" Grid.Column="1" Grid.ColumnSpan="2"/>
+        <Label Content="Output" HorizontalAlignment="Left" Margin="43.179,221.717,0,0" VerticalAlignment="Top" Width="52.667" FontWeight="Bold" FontStyle="Italic" Grid.Column="1" Grid.ColumnSpan="2"/>
+        <Button x:Name="btnAnalyze" Content="Analyze" HorizontalAlignment="Left" Margin="0,22.05,0,0" VerticalAlignment="Top" Width="75" Background="White" BorderBrush="Black" FontWeight="Bold" BorderThickness="2" Grid.Column="2" Click="btnAnalyze_Click"/>
+
+    </Grid>
+</Window>
