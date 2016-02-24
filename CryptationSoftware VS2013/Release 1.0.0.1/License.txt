@@ -1,0 +1,3 @@
+Free use license of the source in all scopes. Please acknowledge the credits to Stefancic Roberto Stefan.
+
+Cryptation Software version 1.0.0.1.
