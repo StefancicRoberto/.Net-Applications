@@ -1,2 +1,3 @@
-# .Net-Applications
-Applications developed under the .net platform.
+# .Net-Projects
+
+These are my personal projects created with the scope of learning and performing my programming skills.
