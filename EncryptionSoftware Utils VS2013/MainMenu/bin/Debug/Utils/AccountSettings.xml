@@ -1,7 +1,0 @@
-﻿<?xml version="1.0" encoding="utf-8"?>
-<credentials>
-  <account>test@gmail.com</account>
-  <password>t@st1234</password>
-  <address>smtp.google.com</address>
-  <port>587</port>
-</credentials>
